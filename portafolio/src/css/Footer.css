@@ -1,0 +1,40 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 14px;
+}
+
+.footer-copy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copy a:hover {
+  text-decoration: underline;
+}

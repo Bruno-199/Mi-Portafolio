@@ -1,0 +1,35 @@
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-brand span {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+  font-weight: 700; /* Texto más oscuro */
+  color: #000; /* Color negro para más contraste */
+  padding: 0.5rem 1rem;
+  margin-right: 25px; /* Ajusta el valor según sea necesario para el espacio deseado */
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: #555; /* Color al pasar el ratón */
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 20px; /* Ajusta el valor según sea necesario para el espacio deseado */
+  padding-bottom: 20px;
+}
+.navbar-brand {
+  margin-left: -90px; /* Ajusta el valor según sea necesario para el espacio deseado */
+}
+.navbar-nav {
+  margin-left: 50px;
+  margin-right: -90px;
+}

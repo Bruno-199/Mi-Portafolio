@@ -1,0 +1,64 @@
+.main {
+  background-image: url("https://www.rammaheshwari.com/assets/svg/common-bg.svg");
+  background-size: cover; /* Ajusta la imagen para que cubra todo el elemento */
+  height: 600px;
+  padding-top: 55px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center; /* Centrando el texto */
+  color: #333; /* Ajusta el color según tus necesidades */
+  font-size: 2.5rem; /* Ajusta el tamaño según tus necesidades */
+  font-weight: 700; /* Peso de la fuente para h1 */
+}
+h2 {
+  margin-left: 100px;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  text-align: center; /* Centrando el texto */
+  color: #333; /* Ajusta el color según tus necesidades */
+  font-size: 1.5rem; /* Ajusta el tamaño según tus necesidades */
+  font-weight: 200; /* Peso de la fuente para h3 */
+}
+.utn-frt {
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  height: 300px; /* Ajusta la altura según sea necesario */
+  border-radius: 50%; /* Hace que los bordes sean redondeados */
+  object-fit: cover; /* Ajusta cómo se escala la imagen */
+  display: block;
+  margin: auto;
+}
+.mapa {
+  width: 300px; /* Ajusta el ancho según sea necesario */
+  height: 300px; /* Ajusta la altura según sea necesario */
+  border-radius: 50%; /* Hace que los bordes sean redondeados */
+  display: block;
+  margin: auto;
+}
+.skills {
+  margin-top: -275px;
+  margin-left: 20px;
+}
+
+.skill-img {
+  width: 50px;
+  height: auto;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.group1,
+.group2 {
+  margin-bottom: 20px;
+}
+.botones {
+  position: relative;
+  top: -200px;
+  left: -150px;
+  margin-bottom: 50px;
+}
