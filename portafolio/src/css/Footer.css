@@ -1,14 +1,10 @@
 .footer {
-  background-color: #000;
+  box-shadow: 0 -3px 10px rgb(196, 188, 188);
+  background-color: #111;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
   width: 100%;
-}
-
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .footer-social {
@@ -16,18 +12,37 @@
 }
 
 .footer-social a {
-  color: #fff;
+  color: #fcfcfc;
   margin: 0 15px;
   text-decoration: none;
   font-size: 18px;
 }
 
-.footer-social a:hover {
-  text-decoration: underline;
+.footer-social :hover {
+  transition: color 0.5s ease, background-color 0.5s ease;
+  transform: scale(1.5);
 }
+
+.footer-social a:hover .fab.fa-linkedin {
+  color: rgb(43, 64, 250); /* Cambia el color a azul cuando se pasa el ratón sobre el icono de LinkedIn */
+}
+.footer-social a:hover .fab.fa-github {
+  color: rgb(145, 145, 145); 
+}
+.footer-social a:hover .fab.fa-instagram {
+  color: rgb(255, 140, 53); 
+}
+.footer-social a:hover .fa-solid.fa-envelope {
+  color: rgb(250, 253, 65); 
+}
+.footer-social a:hover .fab.fa-discord {
+  color: rgb(67, 154, 255); 
+}
+
 
 .footer-copy {
   font-size: 14px;
+  margin-bottom: -20px;
 }
 
 .footer-copy a {
