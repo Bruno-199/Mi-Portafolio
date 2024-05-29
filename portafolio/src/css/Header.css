@@ -6,7 +6,11 @@
 .navbar-brand span {
   font-weight: bold;
   font-size: 1.25rem;
+  display: inline-block;
+  animation: move 3s infinite;
+  
 }
+
 
 .navbar-nav .nav-link {
   font-size: 1.2rem; /* Tamaño de fuente más grande */
@@ -34,3 +38,21 @@
   margin-left: 50px;
   margin-right: -90px;
 }
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    color: #000;
+  }
+  50% {
+    transform: translateX(10px);
+    color: #20c7ff;
+  }
+  100% {
+    transform: translateX(0);
+    color: #000;
+  }
+}
+
+

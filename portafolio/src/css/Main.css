@@ -36,7 +36,6 @@ h4 {
   border-radius: 50%; /* Hace que los bordes sean redondeados */
   display: flex;
   margin: auto;
-  
 }
 .skills {
   margin-top: -275px;
@@ -65,7 +64,7 @@ h4 {
   grid-gap: 50px; /* Ajusta este valor según lo necesites */
   justify-content: flex-end;
 }
-.custom-button{
+.custom-button {
   padding: 1.3em 3em;
   font-size: 12px;
   text-transform: uppercase;
@@ -80,7 +79,7 @@ h4 {
   cursor: pointer;
   outline: none;
 }
-.custom-button:hover{
+.custom-button:hover {
   background-color: #ff0000;
   box-shadow: 0px 15px 20px #ff4e4e;
   color: #fff;
@@ -91,3 +90,5 @@ h4 {
   height: 2rem;
   width: 2rem;
 }
+
+

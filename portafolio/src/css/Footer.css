@@ -19,26 +19,44 @@
 }
 
 .footer-social :hover {
+  animation: bounce_613 0.4s linear;
   transition: color 0.5s ease, background-color 0.5s ease;
   transform: scale(1.5);
 }
 
 .footer-social a:hover .fab.fa-linkedin {
-  color: rgb(43, 64, 250); /* Cambia el color a azul cuando se pasa el ratón sobre el icono de LinkedIn */
+  color: rgb(43,64,250); /* Cambia el color a azul cuando se pasa el ratón sobre el icono de LinkedIn */
 }
 .footer-social a:hover .fab.fa-github {
-  color: rgb(145, 145, 145); 
+  color: rgb(145, 145, 145);
 }
 .footer-social a:hover .fab.fa-instagram {
-  color: rgb(255, 140, 53); 
+  color: rgb(255, 140, 53);
 }
 .footer-social a:hover .fa-solid.fa-envelope {
-  color: rgb(250, 253, 65); 
+  color: rgb(250, 253, 65);
 }
 .footer-social a:hover .fab.fa-discord {
-  color: rgb(67, 154, 255); 
+  color: rgb(67, 154, 255);
 }
 
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 .footer-copy {
   font-size: 15px;

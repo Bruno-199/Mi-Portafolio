@@ -16,6 +16,7 @@ const Header = () => {
             ></Image>{" "}
             <span className="ms-2">Bruno Gabriel Bazan</span>
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
