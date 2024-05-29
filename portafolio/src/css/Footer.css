@@ -1,43 +1,63 @@
 .footer {
-  box-shadow: 0 -3px 10px rgb(196, 188, 188);
-  background-color: #111;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-  width: 100%;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5);
+  
 }
 
 .footer-social {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .footer-social a {
   color: #fcfcfc;
-  margin: 0 15px;
-  text-decoration: none;
-  font-size: 18px;
+  margin: 0 25px;
+  font-size: 15px;
+  
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
 .footer-social :hover {
   animation: bounce_613 0.4s linear;
   transition: color 0.5s ease, background-color 0.5s ease;
-  transform: scale(1.5);
+  transform: scale(1.4);
+  border-radius: 50%; /* Hace que el borde sea circular */
+  padding: 7px;
 }
 
-.footer-social a:hover .fab.fa-linkedin {
-  color: rgb(43,64,250); /* Cambia el color a azul cuando se pasa el ratón sobre el icono de LinkedIn */
+.footer-social a:hover .fab.fa-linkedin-in {
+  background-color: #0a66c2;
 }
 .footer-social a:hover .fab.fa-github {
-  color: rgb(145, 145, 145);
+  background-color: black;
 }
 .footer-social a:hover .fab.fa-instagram {
-  color: rgb(255, 140, 53);
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 .footer-social a:hover .fa-solid.fa-envelope {
-  color: rgb(250, 253, 65);
+  background-color: orange;
 }
 .footer-social a:hover .fab.fa-discord {
-  color: rgb(67, 154, 255);
+  background-color: #5865f2;
+  
 }
 
 @keyframes bounce_613 {
@@ -71,3 +91,5 @@
 .footer-copy a:hover {
   text-decoration: underline;
 }
+
+

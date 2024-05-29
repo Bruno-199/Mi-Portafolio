@@ -1,10 +1,9 @@
 ::-webkit-scrollbar {
-    width: 15px; /* Anchura de la barra de desplazamiento */
-    background-color: #444141; /* Color de fondo de la barra de desplazamiento */
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #000000; /* Color del "pulgón" */
-    border-radius: 5px; /* Borde redondeado para el "pulgón" */
-  }
+  width: 15px; /* Anchura de la barra de desplazamiento */
+  background-color: #444141; /* Color de fondo de la barra de desplazamiento */
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Color del "pulgón" */
+  border-radius: 5px; /* Borde redondeado para el "pulgón" */
+}
 
-  

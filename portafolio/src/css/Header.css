@@ -1,6 +1,12 @@
 .navbar-brand img {
-  height: 40px;
+  height: 50px;
   width: auto;
+  transition: transform 0.5s ease-in-out; /* Transición suave */
+  transform-origin: top left; /* Origen de la transformación */
+  border-radius: 50%;
+}
+.navbar-brand img:hover {
+  transform: scale(5.5);
 }
 
 .navbar-brand span {
@@ -8,36 +14,44 @@
   font-size: 1.25rem;
   display: inline-block;
   animation: move 3s infinite;
-  
 }
 
-
 .navbar-nav .nav-link {
-  font-size: 1.2rem; /* Tamaño de fuente más grande */
   font-weight: 700; /* Texto más oscuro */
   color: #000; /* Color negro para más contraste */
-  padding: 0.5rem 1rem;
   margin-right: 25px; /* Ajusta el valor según sea necesario para el espacio deseado */
+  text-transform: uppercase;
+  
 }
 
 .navbar-nav .nav-link:hover {
   transition: color 0.5s ease, background-color 0.5s ease;
   transform: scale(1.1);
-  color: #00bfff; /* Color al pasar el ratón */
+  color: indigo; /* Color al pasar el ratón */
 }
 
 .navbar {
   box-shadow: 0 3px 10px darkgray;
-  padding-top: 20px; /* Ajusta el valor según sea necesario para el espacio deseado */
-  padding-bottom: 20px;
+  padding-top: 10px; /* Ajusta el valor según sea necesario para el espacio deseado */
+  padding-bottom: 10px;
+
 }
 .navbar-brand {
+  
   margin-left: -90px; /* Ajusta el valor según sea necesario para el espacio deseado */
 }
 .navbar-nav {
   margin-left: 50px;
   margin-right: -90px;
 }
+
+
+
+
+
+
+
+
 
 
 @keyframes move {
@@ -47,12 +61,10 @@
   }
   50% {
     transform: translateX(10px);
-    color: #20c7ff;
+    color: indigo;
   }
   100% {
     transform: translateX(0);
     color: #000;
   }
 }
-
-

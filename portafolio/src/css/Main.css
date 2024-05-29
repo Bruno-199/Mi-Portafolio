@@ -1,5 +1,5 @@
 .main {
-  background-image: url("https://www.rammaheshwari.com/assets/svg/common-bg.svg");
+  background-image: url(" https://www.rammaheshwari.com/assets/svg/common-bg.svg");
   background-size: cover; /* Ajusta la imagen para que cubra todo el elemento */
   height: 600px;
   padding-top: 55px;
@@ -90,5 +90,3 @@ h4 {
   height: 2rem;
   width: 2rem;
 }
-
-
